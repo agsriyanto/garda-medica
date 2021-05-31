@@ -1,0 +1,178 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.body {
+  display: flex;
+}
+.side-nav {
+  color: white;
+  background-color: #164393;
+  width: 50px;
+  height: 100vh;
+  text-align: center;
+}
+.fas {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.title-nav {
+  font-size: 9px;
+  margin-top: 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  margin: 10px;
+}
+.button-search {
+  height: 35px;
+  width: 45px;
+  border-radius: 0;
+  border: solid 1px #808080;
+  background-color: #f2f2f2;
+  margin-right: 10px;
+}
+.fa-reply,
+.fa-undo,
+.fa-search {
+  margin: 0;
+}
+.title-search {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 0 10px;
+  height: 33px;
+  width: 950px;
+  margin-right: 10px;
+  align-items: center;
+  border: solid 1px #808080;
+}
+.input {
+  border: none;
+  height: 31px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.input-search {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 33px;
+  width: 25%;
+  background-color: #f2f2f2;
+  border: solid 1px #808080;
+}
+.name {
+  display: flex;
+  background-color: #d9e3f1;
+  width: 220px;
+  padding: 10px 10px;
+  padding-top: 0;
+  margin-left: 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+.fa-venus {
+  margin: 0;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.top-title {
+  font-size: 10px;
+  text-align: center;
+}
+.bottom-title {
+  text-align: center;
+}
+.ttl {
+  background-color: #d9e3f1;
+  padding: 10px;
+  padding-top: 0;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.data {
+  display: flex;
+}
+.fa-user {
+  margin: 0;
+  margin-right: 10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 15px;
+}
+.doctor-name {
+  display: flex;
+  background-color: #d9e3f1;
+  width: 397px;
+  padding-left: 10px;
+  padding-top: 0;
+  margin-left: 5px;
+  border-radius: 8px;
+  align-items: center;
+}
+.keluhan {
+  background-color: #d9e3f1;
+  width: 582px;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.diagnosis {
+  margin: 5px 10px;
+  display: flex;
+}
+.title-keluhan-top {
+  font-size: 10px;
+}
+.tanda-tanda {
+  background-color: #d9e3f1;
+  width: 582px;
+  height: 68px;
+  border-radius: 8px;
+  padding: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.tanda1 {
+  display: flex;
+  margin-left: 20px;
+}
+.title-tanda {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+.fa-server {
+  margin: 0;
+  font-size: 15px;
+}
+.h3 {
+  background-color: #d0cecf;
+  font-size: 12px;
+  padding: 3px 5px;
+  width: 35px;
+  height: 15px;
+  text-align: center;
+  border-radius: 3px;
+}
+.last-update {
+  font-size: 12px;
+  background-color: #f2f2f2;
+  display: flex;
+  width: 265px;
+  height: 15px;
+  padding: 3px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
