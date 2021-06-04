@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button" onclick="openTab('London')">
+        Tab 1
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openTab('Paris')">
+        Tab 2
+      </button>
+      <button class="w3-bar-item w3-button" onclick="openTab('Tokyo')">
+        Tab 3
+      </button>
+    </div>
+
+    <div id="London" class="w3-container city">
+      <h2>Tab 1</h2>
+      <p>
+        Gingerbread muffin gummies gingerbread macaroon. Lollipop candy
+        applicake toffee faworki. Bear claw topping jelly toffee toffee powder
+        tiramisu candy chupa chups. Chupa chups dragee icing applicake chupa
+        chups dessert. Croissant jelly faworki marzipan tootsie roll
+        marshmallow. Marshmallow toffee sweet roll fruitcake.
+      </p>
+    </div>
+
+    <div id="Paris" class="w3-container city" style="display: none">
+      <h2>Tab 2</h2>
+      <p>
+        Chocolate faworki croissant brownie halvah macaroon gummi bears wypas.
+        Chupa chups icing gummies pudding dessert carrot cake. Cupcake jelly
+        beans sweet roll icing ice cream apple pie tootsie roll gummi bears
+        marzipan. Brownie gummies chupa chups pie. Cupcake jujubes topping.
+      </p>
+    </div>
+
+    <div id="Tokyo" class="w3-container city" style="display: none">
+      <h2>Tab 3</h2>
+      <p>
+        Cheesecake jelly beans ice cream lollipop sweet pastry. Chupa chups
+        dessert cheesecake sesame snaps. Cookie ice cream candy canes pastry
+        cake muffin. Icing chocolate sweet gummi bears powder oat cake oat cake
+        lemon drops.
+      </p>
+    </div>
+
+    <script>
+      function openTab(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(cityName).style.display = "block";
+      }
+    </script>
+  </body>
+</html>
